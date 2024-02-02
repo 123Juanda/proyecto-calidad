@@ -1,0 +1,521 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: linear-gradient(rgb(0, 0, 0), rgb(253, 253, 253));
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.imagen-logo img {
+    max-width: 250px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+    text-decoration: none;
+    list-style: none;
+    margin: 70px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.imagen-fondo {
+    background-image: url('img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.imagen {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen img {
+    width: 200px;
+    height: 200px;
+    transition: transform 0.5s ease;
+}
+
+h2 {
+    text-align: center;
+}
+
+.card p {
+    text-align: center;
+    margin: 20px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.overlay p {
+    color: white;
+    text-align: center;
+}
+
+.imagen:hover img {
+    transform: scale(1.1);
+}
+
+.imagen:hover .overlay {
+    opacity: 1;
+}
+
+.section-2 {
+    display: flex;
+    align-items: center;
+}
+
+.menu-2 {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    background: linear-gradient(rgb(0, 0, 0), rgb(253, 253, 253));
+}
+
+.imagen-logo img {
+    max-width: 250px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.container-imagen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.image-section-1,
+.image-section-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.image-section-1 img,
+.image-section-2 img {
+    max-width: 200px;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-section-1 img:hover,
+.image-section-2 img:hover {
+    transform: scale(1.1);
+}
+
+.section-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+}
+
+.info {
+    width: 45%;
+}
+
+.info p {
+    color: #fff;
+    margin: 20px;
+}
+
+.container-video-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.container-video {
+    width: 60%;
+}
+
+.container-video video {
+    width: 300px;
+    height: 200px;
+}
+
+.videos video {
+    box-shadow: 1px 1px 5px 5px #fff;
+}
+
+.section-4 {
+    background-color: #fff;
+}
+
+.contenido {
+    color: #000;
+}
+
+h3 {
+    text-align: center;
+}
+
+.contenido p {
+    text-align: center;
+    margin: 20px;
+}
+
+.section-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+}
+
+h3 {
+    margin: 20px;
+}
+
+.inform {
+    width: 50%;
+    color: #fff;
+    margin: 20px;
+}
+
+.iconos {
+    width: 400px;
+    color: #fff;
+    margin: 20px;
+}
+
+.menu-iconos img {
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+
+.parrafo {
+    margin: 20px;
+}
+
+.parrafo p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    margin: 20px;
+}
+
+.iconos ul li a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+.section-6 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.reseña {
+    color: #000;
+}
+
+h4 {
+    text-align: center;
+}
+
+.reseña p {
+    text-align: center;
+    margin: 20px;
+}
+
+.section-7 {
+    background-image: url('img/control\ de\ calidad.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.container-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        fle {
+            flex-direction: column;
+        }
+        text-ali {
+            text-align: center;
+        }
+        .imagen-logo img {
+            max {
+                max-width: 200px;
+            }
+            margi {
+                margin-bottom: 20px;
+            }
+        }
+        .menu {
+            .mar {
+                margin-top: 20px;
+            }
+        }
+        .menu ul {
+            flex-direction: column;
+        }
+        .menu li {
+            margin: 10px 0;
+        }
+    }
+    .container-imagen {
+        max-width: 300px;
+    }
+    .image-section-1,
+    .image-section-2 {
+        flex-direction: column;
+    }
+    .videos video {
+        max-width: 300px;
+        height: auto;
+    }
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 90%;
+        margin: 10px 0;
+    }
+    .imagen img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        max-height: 200px;
+    }
+    h2,
+    .card p {
+        margin: 10px 0;
+    }
+    .overlay p {
+        font-size: 14px;
+    }
+    .imagen-logo img {
+        max-width: 100px;
+    }
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: -100%;
+        background-color: #333;
+        color: #000;
+        width: 100%;
+        padding: 20px;
+        transition: left 0.3s ease-in-out;
+    }
+    .menu.active {
+        left: 0;
+        color: #000;
+    }
+    .menu li {
+        margin-bottom: 10px;
+    }
+    .menu-icon {
+        display: block;
+        color: #000;
+        #menu-toggle {
+            display: none;
+        }
+        #menu-toggle:checked+.menu {
+            display: flex;
+            color: #000;
+        }
+        .image-section-1 img,
+        .image-section-2 img {
+            margin: 10px auto;
+            display: flex;
+        }
+        img {
+            display: flex;
+            justify-content: center;
+        }
+        h3 {
+            text-align: center;
+        }
+    }
+    .section-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #000;
+        padding: 20px;
+    }
+    .info {
+        width: 100%;
+        text-align: center;
+    }
+    .info p {
+        color: #fff;
+        margin: 20px 0;
+    }
+    .container-video-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .container-video {
+        width: 60%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .container-video video {
+        width: 100%;
+        height: auto;
+        box-shadow: 1px 1px 5px 5px #fff;
+    }
+    .formulario {
+        width: 80%;
+        margin: 20px auto;
+    }
+    .formulario h2 {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+    .campo {
+        margin-bottom: 10px;
+    }
+    label {
+        margin-bottom: 3px;
+    }
+    .conted {
+        font-size: 15px;
+    }
+}
